@@ -27,7 +27,7 @@ int value(char r)
 
 // Returns decimal value of 
 // roman numaral 
-int romanToDecimal() 
+int romanToDecimal(string& str)  
 { 
 	// Initialize result 
 	int res = 0; 
